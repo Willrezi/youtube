@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+}
+
+.main-container {
+  background-color: #fafafa;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+}
