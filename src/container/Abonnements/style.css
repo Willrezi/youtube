@@ -1,0 +1,20 @@
+.main-container {
+  background-color: #fafafa;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  margin: 0 90px;
+}
+
+h2 {
+  color: #0a0a0a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+}

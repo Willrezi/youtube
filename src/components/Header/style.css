@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.button > i {
+  margin-right: 0;
+}
+
 button {
   border: 0;
   color: #a0a0a0;

@@ -1,0 +1,16 @@
+.button {
+  color: #a0a0a0;
+  height: 50px;
+  width: 50px;
+  padding: 8px;
+  margin: 0 16px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.button > i {
+  margin-right: 0;
+}

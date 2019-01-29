@@ -3,6 +3,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
+import Abonnements from "./container/Abonnements";
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <Header />
         <div className="main">
           <SideBar />
-          <div className="main-container">hello</div>
+          <Abonnements />
         </div>
       </Fragment>
     );
