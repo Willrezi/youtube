@@ -1,0 +1,47 @@
+.cards-container {
+  border-bottom: 1px solid #dcdcdc;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  width: 240px;
+  height: 250px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.card-content > img {
+  width: 240px;
+  height: 140px;
+}
+
+.card-content > h3 {
+  margin: 8px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 40px;
+  padding-left: 0;
+  color: #0a0a0a;
+}
+
+.card-content > span {
+  padding: 15px 0;
+  color: #404040;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.line {
+  margin-top: 5px;
+}
+
+.line > span {
+  margin-right: 0;
+  color: #404040;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

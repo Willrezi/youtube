@@ -9,6 +9,7 @@
   justify-content: center;
   outline: none;
   cursor: pointer;
+  background-color: inherit;
 }
 
 .button > i {
