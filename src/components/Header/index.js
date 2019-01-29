@@ -9,13 +9,12 @@ class Header extends Component {
     return (
       <Fragment>
         <div className="header-container">
-          <div className="bars">
+          <div className="button">
             <button>
               {" "}
               <i class="fas fa-bars fa-2x" />
             </button>
           </div>
-
           <div className="logo">
             <img src={logoYoutube} alt="Logo Youtube" />
             <span className="country-code">FR</span>
@@ -27,12 +26,27 @@ class Header extends Component {
               </div>
               <div className="search-button">
                 <button>
-                  <i class="fas fa-search fa-2x" />
+                  <i class="fas fa-search fa-2x" title="Rechercher" />
                 </button>
               </div>
             </form>
           </div>
           <div className="buttons">
+            <button className="button">
+              <i
+                class="fas fa-video fa-2x"
+                title="Créer une vidéo ou un post"
+              />
+            </button>
+            <button className="button">
+              <i class="fas fa-th fa-2x" title="Applications YouTube" />
+            </button>
+            <button className="button">
+              <i class="fas fa-comment fa-2x" title="Messages" />
+            </button>
+            <button className="button">
+              <i class="fas fa-bell fa-2x" title="Notifications" />
+            </button>
             <Avatar />
           </div>
         </div>
