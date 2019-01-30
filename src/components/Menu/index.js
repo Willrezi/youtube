@@ -7,10 +7,12 @@ class Menu extends Component {
       <Fragment>
         <div className="btn">
           {" "}
-          <button className="btn-style" title={this.props.title}>
-            {this.props.icone}
-            <span>{this.props.name}</span>
-          </button>
+          <ul>
+            <li className="btn-style" title={this.props.title}>
+              {this.props.icone}
+              <span>{this.props.name}</span>
+            </li>
+          </ul>
         </div>
       </Fragment>
     );
