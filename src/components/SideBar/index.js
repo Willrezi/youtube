@@ -34,7 +34,7 @@ class SideBar extends Component {
             <Menu
               title="Historique"
               icone={<i class="fas fa-fire" />}
-              name={"Historique"}
+              name={" Historique"}
             />
             <Menu
               title="A regarder plus tard"
@@ -85,7 +85,7 @@ class SideBar extends Component {
             <Menu
               title="En direct"
               icone={<i class="fas fa-stream" />}
-              name={"En direct"}
+              name={" En direct"}
             />
           </div>
           <div className="main-section">
@@ -97,7 +97,7 @@ class SideBar extends Component {
             <Menu
               title="Historique des signalements"
               icone={<i class="fas fa-flag" />}
-              name={" Historique des si..."}
+              name={"Historique des si..."}
             />
             <Menu
               title="Aide"
@@ -109,6 +109,15 @@ class SideBar extends Component {
               icone={<i class="fas fa-exclamation-circle" />}
               name={"Votre avis"}
             />
+          </div>
+          <div className="footer">
+            <a href="//www.youtube.com/yt/about/fr/">À propos</a>
+            <a href="//www.youtube.com/yt/press/fr/">Presse</a>
+            <a href="/t/contact_us">Nous contacter</a>
+            <div className="copy">
+              <i class="far fa-copyright" />
+              <span>2019 YouTube, LLC</span>
+            </div>
           </div>
         </div>
       </Fragment>
