@@ -12,39 +12,39 @@ class SideBar extends Component {
             <Menu
               title="Accueil"
               icone={<i class="fas fa-home" />}
-              name={<span>Accueil</span>}
+              name={"Accueil"}
             />
             <Menu
               title="Tendances"
               icone={<i class="fas fa-fire" />}
-              name={<span> Tendances</span>}
+              name={" Tendances"}
             />
             <Menu
               title="Abonnements"
               icone={<i class="fab fa-youtube" />}
-              name={<span>Abonnements</span>}
+              name={"Abonnements"}
             />
           </div>
           <div className="main-section">
             <Menu
               title="Bibliothèque"
               icone={<i class="fas fa-folder" />}
-              name={<span>Bibliothèque</span>}
+              name={"Bibliothèque"}
             />
             <Menu
               title="Historique"
               icone={<i class="fas fa-fire" />}
-              name={<span>Historique</span>}
+              name={"Historique"}
             />
             <Menu
               title="A regarder plus tard"
               icone={<i class="fas fa-clock" />}
-              name={<span>A regarder plus tard</span>}
+              name={"A regarder plus tard"}
             />
             <Menu
               title="Vidéos J'aime"
               icone={<i class="fas fa-stream" />}
-              name={<span>Vidéos "J'aime"</span>}
+              name={"Vidéos 'J'aime'"}
             />
           </div>
           <div className="main-section">
@@ -52,17 +52,17 @@ class SideBar extends Component {
             <Menu
               title="Lorem Ipsum"
               icone={<i class="fas fa-user-circle" />}
-              name={<span>Lorem Ipsum</span>}
+              name={"Lorem Ipsum"}
             />
             <Menu
               title="Lorem Ipsum"
               icone={<i class="fas fa-user-circle" />}
-              name={<span>Lorem Ipsum</span>}
+              name={"Lorem Ipsum"}
             />
             <Menu
               title="Lorem Ipsum"
               icone={<i class="fas fa-user-circle" />}
-              name={<span>Lorem Ipsum</span>}
+              name={"Lorem Ipsum"}
             />
           </div>
           <div className="main-section">
@@ -70,44 +70,44 @@ class SideBar extends Component {
             <Menu
               title="YouTube Premium"
               icone={<i class="fab fa-youtube" />}
-              name={<span>YouTube Premium</span>}
+              name={"YouTube Premium"}
             />{" "}
             <Menu
               title="Films et TV"
               icone={<i class="fas fa-gamepad" />}
-              name={<span> Films et TV</span>}
+              name={" Films et TV"}
             />
             <Menu
               title="Jeux vidéos"
               icone={<i class="fab fa-youtube" />}
-              name={<span>Jeux vidéos</span>}
+              name={"Jeux vidéos"}
             />
             <Menu
               title="En direct"
               icone={<i class="fas fa-stream" />}
-              name={<span>En direct</span>}
+              name={"En direct"}
             />
           </div>
           <div className="main-section">
             <Menu
               title="Paramètres"
               icone={<i class="fas fa-cog" />}
-              name={<span>Paramètres</span>}
+              name={"Paramètres"}
             />
             <Menu
               title="Historique des signalements"
               icone={<i class="fas fa-flag" />}
-              name={<span> Historique des si...</span>}
+              name={" Historique des si..."}
             />
             <Menu
               title="Aide"
               icone={<i class="fas fa-question-circle" />}
-              name={<span>Aide</span>}
+              name={"Aide"}
             />
             <Menu
               title="Votre avis"
               icone={<i class="fas fa-exclamation-circle" />}
-              name={<span>Votre avis</span>}
+              name={"Votre avis"}
             />
           </div>
         </div>

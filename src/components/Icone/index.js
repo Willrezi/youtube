@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import "./style.css";
 
-class Button extends Component {
+class Icone extends Component {
   render() {
     return (
       <Fragment>
@@ -13,4 +13,4 @@ class Button extends Component {
   }
 }
 
-export default Button;
+export default Icone;

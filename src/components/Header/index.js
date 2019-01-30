@@ -3,7 +3,7 @@ import "./style.css";
 
 import logoYoutube from "../../assets/youtube.png";
 import Avatar from "../Avatar";
-import Button from "../Button";
+import Icone from "../Icone";
 
 class Header extends Component {
   render() {
@@ -33,19 +33,19 @@ class Header extends Component {
             </form>
           </div>
           <div className="buttons">
-            <Button
+            <Icone
               title="Créer une vidéo ou un post"
               icone={<i class="fas fa-video fa-2x" />}
             />
-            <Button
+            <Icone
               title="Applications YouTube"
               icone={<i class="fas fa-th fa-2x" />}
             />
-            <Button
+            <Icone
               title="Messages"
               icone={<i class="fas fa-comment fa-2x" />}
             />
-            <Button
+            <Icone
               title="Notifications"
               icone={<i class="fas fa-bell fa-2x" />}
             />

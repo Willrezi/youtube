@@ -9,7 +9,7 @@ class Menu extends Component {
           {" "}
           <button className="btn-style" title={this.props.title}>
             {this.props.icone}
-            {this.props.name}
+            <span>{this.props.name}</span>
           </button>
         </div>
       </Fragment>

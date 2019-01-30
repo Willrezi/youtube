@@ -1,10 +1,10 @@
 .main-container {
   background-color: #fafafa;
   height: 100vh;
-  display: flex;
   flex: 1;
   flex-direction: column;
   padding: 0 90px;
+  overflow-y: scroll;
 }
 
 h2 {
@@ -35,4 +35,10 @@ h2 {
   flex-direction: row;
   flex: 1;
   justify-content: flex-end;
+}
+
+.cards-container {
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  flex-wrap: wrap;
 }
