@@ -1,6 +1,4 @@
-Voici un débrief de ce que j'ai fait pour réaliser cette exercice
-
-Concernant le projet :
+Voici un rapide débrief de ce que j'ai fait pour réaliser cette exercice.
 
 J'ai créé un dossier "container" qui contient les pages du site, en l'occurence la page abonnement.
 J'ai créé un dossier "components" dans lequel je mets tous mes composants qui vont me servir à différents endroits.
@@ -18,3 +16,4 @@ Sur la Sidebar j'ai également intégré un composant "Menu".
 Pour tout ce qui est icônes j'ai fait le choix de les prendre directement sur Fontawsome afin d'aller plus vite plutôt que de les enregistrer.
 
 En ayant un peu plus de temps j'aurais fait l'ouverture des icônes quand on clique dessus. J'aurais également fait la création de pages vierges de manière à être redirigé vers ces pages quand on clique sur le menu.
+L'idéal serait de récupérer les datas.
